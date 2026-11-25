@@ -47,3 +47,98 @@ h1, h2, h3 {
   padding: 15 px;
   margin: 20 px 0;
 }
+.quote-box {
+  background-color: #fff6e6;
+  border-left: 6 px solid #d9822b;
+  border-radius: 8 px;
+  padding: 15 px 18 px;
+  margin: 20 px 0;
+  font-style: italic;
+}
+.btn {
+  display: inline-block;
+  background-color: #2a7f76;
+  color: #ffffff;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12 px 22 px;
+  border: 2 px solid #1d3538;
+  border-radius: 25 px;
+  margin-top: 12 px;
+}
+.btn:hover {
+  background-color: #1d3538;
+}
+.back-btn {
+  display: inline-block;
+  background-color: #fde8c8;
+  color: #1d3538;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  font-size: 14 px;
+  text-decoration: none;
+  padding: 8 px 16 px;
+  border: 2 px solid #1d3538;
+  border-radius: 20 px;
+  margin-top: 15 px;
+}
+.back-btn:hover {
+  background-color: #cfe8e0;
+}
+.toc-card {
+  display: block;
+  background-color: #f4faf8;
+  border: 2 px solid #1d3538;
+  border-radius: 12 px;
+  padding: 16 px;
+  margin-bottom: 16 px;
+  text-decoration: none;
+  color: #1d3538;
+}
+.toc-card:hover {
+  background-color: #cfe8e0;
+}
+.toc-card h3 {
+  margin: 6 px 0;
+  color: #2a7f76;
+}
+table {
+  width: 100 %;
+  border-collapse: collapse;
+  margin: 20 px 0;
+  font-size: 15 px;
+}
+th, td {
+  border: 1.5 px solid #1d3538;
+  padding: 10 px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background-color: #cfe8e0;
+  font-family: "Courier New", monospace;
+}
+img {
+  max-width: 100 %;
+  height: auto;
+  border: 2 px solid #1d3538;
+  border-radius: 12 px;
+  display: block;
+  margin: 15 px auto;
+}
+.caption {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-size: 13 px;
+  color: #4f6b6e;
+  margin-top: -8 px;
+  margin-bottom: 20 px;
+}
+.footer {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-size: 13 px;
+  padding-top: 15 px;
+  border-top: 2 px dashed #2a7f76;
+}
